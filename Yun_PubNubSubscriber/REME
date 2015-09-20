@@ -1,10 +1,10 @@
 * Overview
-아두이노 윤이 외부로 부터 명령을 받는 구조
+아두이노에게 명령을 보내는 웹 페이지
 
 * Structure
-Yun - Pubnub - Web page
+Web page -> Pubnub -> Yun
 
 * Flow (Yun)
-Start
-Waiting message (Subscribe)
-Pasring message (JSON types)
+Click button
+Sending message (JSON)
+- {Name : 111, value : 111}
