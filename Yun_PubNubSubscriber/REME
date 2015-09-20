@@ -1,0 +1,10 @@
+* Overview
+아두이노 윤이 외부로 부터 명령을 받는 구조
+
+* Structure
+Yun - Pubnub - Web page
+
+* Flow (Yun)
+Start
+Waiting message (Subscribe)
+Pasring message (JSON types)
